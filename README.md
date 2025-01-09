@@ -1,24 +1,16 @@
-<h1 style="text-align: center; text-decoration: underline;">👨‍💻 DeauthX 👨‍💻</h1>
-
+# 👨‍💻 DeauthX 👨‍💻
 ## **⚠️️Disclaimer**
-
 This tool is for educational purposes only and should be used for legitimate penetration testing or security research on devices you own or have permission to test. Unauthorized or illegal use can lead to legal consequences. The author is not responsible for any damages or liabilities. Use the tool responsibly and ensure compliance with laws and obtain necessary permissions.
 
----
 ## **📘Introduction**
-
 DeauthX is a command-line utility designed for educational purposes, allowing you to perform various actions related to Wi-Fi networks. This tool is intended for legitimate penetration testing, security research purposes, and network devices that you own or have permission to test.
 
----
 ## **📋Pre-requisites**
-
 - Linux Environment
 - [Python 3](https://www.python.org/downloads/)
 - [Aircrack-ng](https://www.aircrack-ng.org/downloads.html)
 
----
 ## **🛠️Installation**
-
 1. Clone the repository
 ```
 git clone https://github.com/prashant-sagar-shakya/DeauthX.git
@@ -35,9 +27,8 @@ sudo ln -s /opt/DeauthX/DeauthX /usr/local/bin/DeauthX
 ```
 sudo chmod +x /opt/DeauthX/DeauthX
 ```
----
-## **⚙️Options**
 
+## **⚙️Options**
 | Option                          | Description                                     |
 | ------------------------------- | ----------------------------------------------- |
 | `-h` or `--help`                | Show help message and exit                      |
@@ -49,9 +40,7 @@ sudo chmod +x /opt/DeauthX/DeauthX
 | `--client=<client>`             | Specify the client MAC to use                   |
 | `--number=<number>`             | Specify the number to packets to send           |
 
----
 ## **🔄Modes of Operation**
-
 | Mode            | Description                                           |
 | --------------- | ----------------------------------------------------- |
 | `scan_wns`      | Scan for Wi-Fi networks                               |
@@ -61,11 +50,8 @@ sudo chmod +x /opt/DeauthX/DeauthX
 | `deauth_all`    | Deauthenticate all clients from a Wi-Fi network       |
 | `deauth_client` | Deauthenticate a specific client from a Wi-Fi network |
 
----
 ## **🖥️ Usage**
-
 ### Scan Wi-Fi networks
-
 ```
 sudo DeauthX --mode=scan_wns --interface=wlan0 --time=120
 ```
@@ -90,10 +76,7 @@ sudo DeauthX --mode=deauth_all --interface=wlan0 --access-point=FF:FF:FF:FF:FF:F
 sudo DeauthX --mode=deauth_client --interface=wlan0 --access-point=FF:FF:FF:FF:FF:FF --client=FF:FF:FF:FF:FF:FF --number=10000
 ```
 
----
 ## **📞Connect With Me**
-
 For questions, suggestions, or just to say hi:
-
 - **GitHub:** [prashant-sagar-shakya](https://github.com/prashant-sagar-shakya)
 - **Email:** [prashant.sagar.shakya@gmail.com](mailto:prashant.sagar.shakya@gmail.com)
